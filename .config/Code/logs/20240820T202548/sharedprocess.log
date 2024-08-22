@@ -1,0 +1,10 @@
+2024-08-20 20:25:58.649 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ajablonska0/.vscode/extensions
+2024-08-20 20:25:59.662 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ajablonska0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ajablonska0/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-20 20:25:59.670 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ajablonska0/.vscode/extensions Unable to create file 'vscode-userdata:/home/ajablonska0/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-08-20 20:25:59.671 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ajablonska0/.vscode/extensions
